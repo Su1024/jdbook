@@ -17,3 +17,5 @@ class JdbookItem(scrapy.Item):
     name = scrapy.Field()
     # 价格
     price = scrapy.Field()
+    # 来源
+    source = scrapy.Field()

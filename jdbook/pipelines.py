@@ -8,4 +8,6 @@
 
 class JdbookPipeline(object):
     def process_item(self, item, spider):
+        print('a')
+        print(item)
         return item
