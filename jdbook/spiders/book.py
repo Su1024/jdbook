@@ -5,7 +5,7 @@ import scrapy
 class BookSpider(scrapy.Spider):
     name = 'book'
     allowed_domains = ['book.jd.com']
-    start_urls = ['http://book.jd.com/']
+    start_urls = ['https://book.jd.com/booksort.html']
 
     def parse(self, response):
         pass

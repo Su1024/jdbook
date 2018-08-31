@@ -9,6 +9,11 @@ import scrapy
 
 
 class JdbookItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    # 图书分类
+    category = scrapy.Field()
+    # 链接
+    tar_url = scrapy.Field()
+    # 图书名
+    name = scrapy.Field()
+    # 价格
+    price = scrapy.Field()
